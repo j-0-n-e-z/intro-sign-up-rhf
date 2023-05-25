@@ -8,9 +8,13 @@ export default function App() {
 		register,
 		handleSubmit,
 		formState: { errors },
+		reset,
 	} = useForm<Form>({ resolver: zodResolver(validationSchema) })
 
-	const onSubmit: SubmitHandler<Form> = data => console.log(data)
+	const onSubmit: SubmitHandler<Form> = data => {
+		console.log(data)
+		reset()
+	}
 
 	return (
 		<main className='font-Poppins w-full min-h-screen grid place-items-center bg-light-red lg:bg-desktop bg-mobile bg-no-repeat bg-center'>
