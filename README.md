@@ -1,4 +1,5 @@
 # Intro Sign Up w/ react-hook-form
+Copy of this [repo](https://github.com/j-0-n-e-z/intro-sign-up), but with **react-hook-form** instead of Formik for form validation.
 
 ## Desktop (1440x800)
 ![j-0-n-e-z-intro-sign-up netlify app_desktop](https://github.com/j-0-n-e-z/intro-sign-up/assets/46866168/36494df4-8e31-4e6e-b39c-cdded7af62ac)
